@@ -18,12 +18,10 @@ VALUES
 INSERT INTO employee (first_name, last_name, role_id)
 VALUES
     ('Bob', 'Zeebarth', 'Manager'),
-    ('Helen', 'Dangle', 'Lead Engineer'),
     ('Tommy', 'Hodsen', 'Software Engineer'),
-    ('Ricky', 'Looger', 'Accountant'),
     ('Toomb', 'Jungis', 'Lead Engineer'),
     ('Marie', 'Rinnotelli', 'Lawyer'),
-    ('Hubtert', 'Salad', 'Team Lead'),
+    ('Hubert', 'Salad', 'Team Lead'),
     ('Tony', 'Soprano', 'Accountant'),
     ('Michael', 'Gianno', 'Lead Engineer'),
     ('Johnny', 'Bravo', 'Salesman');
