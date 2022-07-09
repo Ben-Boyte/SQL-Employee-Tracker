@@ -9,4 +9,12 @@ const db = mysql.createConnection(
     console.log('Connected!')
 );
 
+// const department = () => {
+
+//     db.query(`SELECT * FROM department`, (err, rows) => {
+//         //console.log(rows);
+//     });
+
+// }
+
 module.export = db;

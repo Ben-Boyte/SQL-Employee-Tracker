@@ -10,7 +10,7 @@ An app designed to keep track of current and future employees by creating tables
 ## Installation
     
   _How to install this application:_
-  npm i, mysql12, express
+  npm i, mysql12, inquirer, console.table
       
 ## Usage
   _Instructions for use:_
