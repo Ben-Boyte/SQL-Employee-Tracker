@@ -6,13 +6,13 @@ const db = mysql.createConnection(
         password: 'password',
         database: 'staff_management'
     },
-    console.log('Connected to the staff_management database.')
+    console.log('Connected!')
 );
 
-const viewDepartment = () => {
+const department = () => {
 
     db.query(`SELECT * FROM department`, (err, rows) => {
-        console.log(rows);
+        //console.log(rows);
     });
 
 }
