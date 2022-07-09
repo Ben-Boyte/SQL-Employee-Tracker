@@ -31,11 +31,9 @@ const track = () => {
         switch (track) {
         case 'View Departments': 
             viewDepartment();
-            
 
         case 'View Roles':
             viewRole();
-            
 
         case 'View Employees':
             viewEmployee();
@@ -43,14 +41,11 @@ const track = () => {
         case 'Add Department':
             addDepartment();
             
-        
         case 'Add Role':
             addRole();
-            
 
         case 'Add Employee':
             addEmployee();
-            
 
         case 'Update Employee Role':
             updateRole();
