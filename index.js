@@ -19,7 +19,7 @@ const track = () => {
             message: 'Select one of the following:',
             choices: ['View Departments', 'View Roles', 'View Employees', 'Add Department', 'Add Role', 'Add Employee', 'Update Employee Role'],
             validate: whatDo => {
-                if ('View Departments' || 'View Roles' || 'View Employees' || 'Add Department' || 'Add Role' || 'Add Employee' || 'Update Employee Role') {
+                if ('View Departments', 'View Roles', 'View Employees', 'Add Department', 'Add Role', 'Add Employee', 'Update Employee Role') {
                     return true;
                 } else {
                     return false;
